@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href = "style.xsl"?>
+<products>
+  <product>
+    <name>Pen</name>
+    <price>10.99</price>
+  </product>
+  <product>
+    <name>Soap</name>
+    <price>19.99</price>
+  </product>
+  <product>
+    <name>Tea</name>
+    <price>49.99</price>
+  </product>
+  <product>
+    <name>Shampoo</name>
+    <price>32.55</price>
+  </product>
+  <product>
+    <name>Laptop</name>
+    <price>1000.67</price>
+  </product>
+</products>
+

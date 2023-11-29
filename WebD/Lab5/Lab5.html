@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function submitfor()
+        {
+            var fnm = document.getElementById('fnm').value;
+            var lnm = document.getElementById('lnm').value;
+            var dob = document.getElementById('dob').value;
+            var email = document.getElementById('email').value;
+            var phone = document.getElementById('phone').value;
+            var rno = document.getElementById('rno').value;
+            var sem = document.getElementById('sem').value;
+            var dept = document.getElementById('dept').value;
+            var str = "Information Provided : \n"+"Name : "+fnm+" "+lnm+"\nDob : "+dob+"\nEmail : "+email+"\nPhone : "+phone+"\nReg No : "+rno+"\nSemester : "+sem+"\nDepartment : "+dept;
+            window.alert(str); 
+        }
+    </script>
+</head>
+<body>
+    <div id = "bg-div"></div>
+    <center><h1>SEMESTER REGISTRATION FORM </h1></center>
+    <form>
+        <input type = 'text' name = "FirstName" id="fnm" placeholder="FirstName" required 
+        class="form-inp"><br><br>
+        <input type = 'text' name = "LastName" id="lnm" placeholder="LastName" required 
+        class="form-inp"><br><br>
+        <input type = 'date' name = "DOB" id="dob" placeholder="DOB" required 
+        class="form-inp"><br><br>
+        <input type = 'email' name = "Email" id="email" placeholder="Email" required 
+        class="form-inp"><br><br>
+        <input type = 'number' name = "Phone" id="phone" placeholder="Phone" required 
+        class="form-inp"><br><br>
+        <input type = 'number' name = "Reg No" id="rno" placeholder="Reg No" required 
+        class="form-inp"><br><br>
+        <input type = 'text' name = "Semester" id="sem" placeholder="Semester" required 
+        class="form-inp"><br><br>
+        <input type = 'text' name = "Department" id="dept" list="deptlist" placeholder = "Department"required class="form-inp"><br><br>
+        <datalist id="deptlist">
+        <option value="CSE"></option>
+        <option value="AI&DS"></option>
+        <option value="IT"></option>
+        <option value="EEE"></option>
+        <option value="ECE"></option>
+        </datalist>
+        <input type="submit" class="Submit" value="Submit" onclick="submitfor()" class = "form-inp">
+
+    </form>
+</body>
+</html>

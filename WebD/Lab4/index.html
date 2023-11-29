@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function cal()
+        {
+            var a,b,sum,diff,mul,div,mod;
+            a = parseFloat(document.getElementById("1no").value);
+            b = parseFloat(document.getElementById("2no").value);
+            sum = a+b;
+            diff = a-b;
+            mul = a*b;
+            div = a/b;
+            mod = a%b;
+            document.getElementById("sum").value = sum;
+            document.getElementById("diff").value = diff;
+            document.getElementById("mul").value = mul;
+            document.getElementById("div").value = div;
+            document.getElementById("mod").value = mod;
+        }
+    </script>
+    <link rel = "stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CALCULATION</h1><hr>
+    <div class="mera form">
+        <label for="1no">Enter First Number</label><br>
+        <input id ="1no"  required><br><br>
+        <label for="2no">Enter Second Number</label><br>
+        <input  id ="2no" required><br><br>
+        <button onclick=cal()>Calculate</button><br><br>
+        <pre>Sum <input id="sum"></pre>
+        <pre>Difference <input id="diff"></pre>
+        <pre>Multiplication <input id="mul"></pre>
+        <pre>Division <input id="div"></pre>
+        <pre>Modulus <input id="mod"></pre>    
+    </div>
+</body>       
+</html>

@@ -1,0 +1,8 @@
+body{background-color:lightblue;}
+h1{align-items: center;
+font-size: 125%;
+font-weight: bolder;}
+p{color:rgb(253, 68, 0);background-color: rgb(173, 226, 251);
+font-weight:400;;}
+input{background-color: lightblue;
+font-size: 110%;}

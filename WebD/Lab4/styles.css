@@ -1,0 +1,8 @@
+body{background-color: #7173f67c;}
+h1{text-align: center;font-weight: bolder;font-size: 250%;}
+input{display:block;background-color: rgba(241, 169, 169, 0.476);color:rgb(79, 79, 79);font-size: 100%;}
+div[class='mera form']{width:auto;font-size: 150%;
+padding-left: 800px;}
+pre{font-size: 150%;font-weight: 500;color:rgb(56, 38, 38)}
+button{background-color: rgb(55, 55, 168);color:whitesmoke;font-size: 100%;padding:4px;width: 200px;
+}
